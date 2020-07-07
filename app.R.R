@@ -50,7 +50,7 @@ server <- function(input, output) {
     output$geocoded <- renderTable({
         
         #register Google API Key
-        register_google("AIzaSyAryhQfKiL1MiGHHiBO6wL_Nciw4LR61TU")
+        register_google("YOUR_API_KEY_GOES_HERE")
         
         # Select the file from the file chooser
         path <- input$csv
